@@ -45,6 +45,7 @@
     "telephone": "+1-702-530-2624",
     "address": { "@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US" },
     "knowsAbout": ["LLM agents", "RAG", "MCP", "evaluation and observability", "distributed systems", "backend platforms", "developer tooling", "Python", "TypeScript"],
+    "sameAs": ["https://github.com/maxawad", "https://www.linkedin.com/in/maxawad"],
     "alumniOf": [
       { "@type": "Organization", "name": "Apple" },
       { "@type": "Organization", "name": "Google" },
@@ -170,6 +171,7 @@
     <nav class="nav__links" id="navLinks" aria-label="Primary">
       <a href="#work">What I build</a>
       <a href="#experience">Experience</a>
+      <a href="#code">Code</a>
       <a href="#about">About</a>
       <a href="#process">How I work</a>
       <a href="#engagements">Engagements</a>
@@ -315,6 +317,40 @@
           <span class="step__num">Now</span>
           <h3>LLM agent platforms</h3>
           <p>Building agents, tools, RAG/MCP integrations, and the evaluation and observability that keep them reliable — in Python and TypeScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Public code -->
+    <section class="section" id="code">
+      <div class="section__head reveal">
+        <h2 class="section__title">Public code</h2>
+        <p class="section__sub">Small projects rather than client systems — but the retrieval, grounding, and agent plumbing in them is real and readable.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <span class="step__num">RAG · Node</span>
+          <h3>Support copilot</h3>
+          <p>A FAQ support copilot whose answers cite the entry they came from, with session memory for follow-ups and routing that hands authentication problems to a human instead of inventing steps. Express, with a template fallback when no model key is present.</p>
+          <a href="https://github.com/maxawad/support-epic" class="case__link" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="step reveal">
+          <span class="step__num">RAG · Python</span>
+          <h3>The same copilot, in Python</h3>
+          <p>A FastAPI build of the same idea: keyword-scored retrieval over structured FAQ entries, source-cited answers, and both session and longer-term memory.</p>
+          <a href="https://github.com/maxawad/epic-vendor-support-copilot" class="case__link" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="step reveal">
+          <span class="step__num">Realtime · TS</span>
+          <h3>A project board you can talk to</h3>
+          <p>Next.js and TypeScript over Postgres, with a voice and chat agent built on the OpenAI Realtime API driving the project and task APIs directly.</p>
+          <a href="https://github.com/maxawad/trello-mcp" class="case__link" rel="noopener">View on GitHub →</a>
+        </div>
+        <div class="step reveal">
+          <span class="step__num">More</span>
+          <h3>Everything else</h3>
+          <p>The rest of what's public — experiments, tooling, and older work — lives on my GitHub profile.</p>
+          <a href="https://github.com/maxawad" class="case__link" rel="noopener">github.com/maxawad →</a>
         </div>
       </div>
     </section>
