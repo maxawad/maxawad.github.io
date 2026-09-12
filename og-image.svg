@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Max Awad — Staff Engineer, Contract & Fractional">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Max Awad &#8212; Staff Engineer, Contract &amp; Fractional">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0f0e17"/>
@@ -23,7 +23,7 @@
     <text x="80" y="150" fill="#a78bfa" font-size="26" font-weight="700" letter-spacing="2">STAFF ENGINEER &#8226; CONTRACT &amp; FRACTIONAL</text>
 
     <!-- Domain, top-right -->
-    <text x="1120" y="150" fill="#a5a1b8" font-size="26" font-weight="500" text-anchor="end">maxawad.com</text>
+    <text x="1120" y="150" fill="#a5a1b8" font-size="26" font-weight="500" text-anchor="end">maxawad.github.io</text>
 
     <!-- Name -->
     <text x="76" y="272" fill="#eae8f2" font-family="Georgia, 'Times New Roman', serif" font-size="120" font-weight="700" letter-spacing="-2">Max Awad</text>
