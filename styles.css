@@ -333,6 +333,15 @@ a { color: inherit; text-decoration: none; }
   color: var(--brand);
 }
 .step h3 { margin: 14px 0 8px; font-size: 1.2rem; }
+.step__meta {
+  display: block;
+  margin-top: 4px;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
 .step p { color: var(--muted); font-size: 0.96rem; }
 
 /* Quote */
