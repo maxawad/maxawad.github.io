@@ -34,6 +34,9 @@
   <meta name="twitter:image" content="https://maxawad.github.io/og-image.png?v=2" />
 
   <!-- Structured data for search -->
+  <!-- sameAs omits linkedin.com/in/maxawad: that URL returns 404 to logged-out
+       visitors and crawlers, so asserting it here claims an identity that cannot
+       be resolved. Restore the entry once the profile is public. -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -46,7 +49,7 @@
     "telephone": "+1-702-530-2624",
     "address": { "@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US" },
     "knowsAbout": ["LLM agents", "RAG", "MCP", "evaluation and observability", "distributed systems", "backend platforms", "developer tooling", "Python", "TypeScript"],
-    "sameAs": ["https://github.com/maxawad", "https://www.linkedin.com/in/maxawad"],
+    "sameAs": ["https://github.com/maxawad"],
     "worksFor": { "@type": "Organization", "name": "iMAKE" },
     "alumniOf": [
       { "@type": "EducationalOrganization", "name": "New Jersey Institute of Technology" },
